@@ -1,0 +1,109 @@
+// *{
+//     padding: 0;
+//     margin: 0;
+//     list-style: none;
+//     box-sizing: border-box;
+// }
+// html,body{
+//     height: 100%; 
+//     width: 100%;
+//     box-sizing: border-box;
+// }
+.login-wrap{
+    background: url('../img/bg.jpg') no-repeat; 
+    background-size:cover;
+    background-attachment:fixed;
+ }
+.wrap{
+    height: 100%;
+    width: 100%;
+}
+.wrap .box{
+    height: 1024px;
+    width: 1280px;
+    margin:0 auto;
+}
+.wrap .box .left{
+    height: 157px;
+    width: 507px;
+    float: left;
+    margin-left: 110px;
+    margin-top:310px;
+}
+.wrap .box .left .wel{
+    height: 98px;
+    width: 507px;
+    /* font-family: HelveticaNeue-UltraLight; */
+    font-size: 106px;
+    color: #FFFFFF;
+    letter-spacing: 5.25px;
+    line-height: 98px;
+}
+.wrap .box .left .left-title{
+    height: 59px;
+    width: 519px;
+    /* font-family: PingFangSC-Light; */
+    font-size: 9px;
+    color: #FFFFFF;
+    letter-spacing: 0.83px;
+    line-height: 29px;
+}
+.wrap .box .right{
+    height: 530px;
+    width: 460px;
+    margin-left: 66px;
+    margin-top:279px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 54px 0px rgba(0,21,30,0.16);
+    border-radius: 8px;
+    float: left;
+    padding:20px;
+    dl{
+        text-align: center;
+        dt{
+            i{
+                font-size: 100px;
+            }
+        }
+    }
+    p{
+        opacity: 0.59;
+        font-size: 15px;
+        color: #73808e;
+        height:58px;
+        border-bottom: 1px solid #ccc;
+        padding:9px 10px;
+        input{
+            border:none;
+            background: none;
+            outline: none;
+            height:40px;
+        }
+        .check{
+            float: right;
+            width:100px;
+            height:34px;
+            text-align: center;
+            line-height: 34px;
+            border:1px solid #ccc;
+            font-size: 14px;
+            color: #ff5065;
+            cursor: pointer;
+       }
+    }
+    button{
+        display: block;
+        width:100%;
+        border:none;
+        background: none;
+        height:44px;
+        line-height: 44px;
+        color:#fff;
+        text-align: center;
+        font-size: 16px;
+        background: #7b1AD9;
+        border-radius: 100px;
+        cursor: pointer;
+
+    }
+}

@@ -1,0 +1,12 @@
+body,html,#root,.wrap{
+    width:100%;
+}
+.box {
+    width:1120px;
+    //  height: 1024px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.ant-menu-item-selected{
+    background: none !important;
+}
